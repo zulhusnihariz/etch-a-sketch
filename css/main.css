@@ -1,0 +1,73 @@
+html {
+	box-sizing: 0;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	font-family: "Poppins", sans-serif;
+	background: url(/img/night-sky.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	height: auto;
+}
+
+#frame {
+	position: relative;
+	background-color: rgba(237, 246, 249, 0.7);
+	border-radius: 20px;
+	margin: 30px;
+	min-width: 85vw;
+	height: 80vh;
+	width: 900px;
+}
+
+#main-container {
+	position: relative;
+	background-color: rgba(229, 229, 229, 1);
+	border-radius: 10px;
+	margin: 25px;
+	margin-bottom: 0;
+	height: 85%;
+	text-align: center;
+	overflow: hidden;
+}
+
+#action-buttons {
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+	margin-top: 7px;
+}
+
+#action-buttons button {
+	border-radius: 50%;
+	width: 20px;
+	height: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#grid-layout {
+	display: grid;
+	box-sizing: border-box;
+	position: relative;
+	border: 3px solid black;
+	border-radius: 5px;
+	margin: 5px;
+	width: auto;
+	height: 98%;
+}
