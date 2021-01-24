@@ -58,7 +58,6 @@ body {
 	width: 20px;
 	height: 30px;
 	margin-right: 10px;
-	margin-left: 10px;
 }
 
 #grid-layout {
@@ -70,4 +69,17 @@ body {
 	margin: 5px;
 	width: auto;
 	height: 98%;
+}
+
+#keyboard-icon,
+#duster-icon {
+	width: 20px;
+	height: 20px;
+}
+
+#color-input {
+	margin-top: 2px;
+	height: 30px;
+	height: 15px;
+	padding: 5px;
 }
