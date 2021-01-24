@@ -34,7 +34,7 @@ function arrangeGrid(input) {
 function setColor(className) {
 	for (i = 0; i < className.length; i++) {
 		className[i].style.backgroundColor = "black";
-		className[i].style.border = "1px solid rgba(237, 246, 249)";
+		// className[i].style.border = "1px solid rgba(237, 246, 249)";
 		className[i].onmouseenter = changeColor;
 	}
 }
